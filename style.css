@@ -1,0 +1,35 @@
+h1{
+    color:red;
+}
+.Header{
+    background-color: aqua;
+    display:flex;
+    justify-content: space-between;
+}
+
+.Menu{
+    display:flex;
+    flex-direction: column;
+}
+
+.Games{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Footer{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.game{
+    border: solid;
+}
+
+p{
+    text-align: center;
+    font-size: 30%;
+    color: crimson;
+    font-weight: bold;
+}
